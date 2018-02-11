@@ -1,0 +1,360 @@
+  @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+  @import "slider.css";
+  @import "animate.css";
+
+  body {
+    background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-owerflow-scrolling: touch;
+
+    margin-top: 70px;
+  }
+
+  h1, h2,h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+  }
+
+  p {
+    line-height: 28px;
+    margin-bottom: 25px;
+  }
+
+  .centered {
+    text-align: center;
+  }
+
+  a {
+    color: #f85c37;
+    transition: all 0.5s;
+    border-radius: 5px;
+  }
+
+  .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #e02d2d;
+    border-radius: 10px;
+  }
+
+  a:hover, a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+  }
+
+  hr {
+    display: block;
+    margin: 1em 0;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0;
+  }
+
+  .navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .navbar-inverse {
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+  }
+
+  .navbar-inverse .navbar-nav > .active > a {
+    background-color: #ff7878;
+  }
+
+  .headerwrap {
+    background: url(../image/header.png) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 690px;
+    width: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .navbar-brand span {
+    color: #fff
+  }
+
+  .navbar-inverse .navbar-brand {
+    color: #f00;
+    font-size: 20pt;
+  }
+
+  .headerwrap h1 {
+    margin-top: 150px;
+    font-size: 5.5vw;
+    color: #fff;
+  }
+
+  .headerwrap h3 {
+    margin-top: 50px;
+    font-size: 18pt;
+    color: #ffffcc;
+  }
+
+  .headerwrap h4 {
+    margin-top: 150px;
+    font-size: 16pt;
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: none;
+  }
+
+  .headerwrap h4 span {
+    color: #ff2323;
+  }
+
+
+
+
+  .color {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #fff;
+  }
+
+  #text p {
+    text-align: justify;
+    color: #282828;
+    margin-bottom: 10px;
+  }
+
+  .w h3 {
+    font-size: 14pt;
+    color: #85981e;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .w h1 {
+    margin-bottom: 0.5em;
+  }
+
+  #img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    width: 200px;
+    height: 200px;
+    background: url(../image/MyPhoto.jpg) no-repeat center center;
+    background-size: 100%;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+
+
+
+
+
+  .dg {
+    background: url(../image/Resume.jpg) repeat-y center center;
+    background-size: cover;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+  }
+
+  .dg h1 {
+    margin-top: 0.5em;
+    margin-bottom: 1.7em;
+    color: #fff;
+  }
+
+  .dg h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 16pt;
+    color: #c3b014;
+    text-align: left;
+  }
+
+  .dg p {
+    font-size: 14pt;
+    font-weight: lighter;
+    text-align: justify;
+    color: #cfcec7;
+  }
+
+  .select {
+    padding: 0.5em 0;
+    transition: all 0.5s;
+  }
+  .select:hover {
+    background-color: rgba(55, 55, 55, 0.3);
+  }
+
+  .dg img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .slider > h3 {
+    color: #ffffcc !important;
+    text-align: center !important;
+    margin-top: 2em !important;
+    margin-bottom: 2em !important;
+  }
+
+
+
+
+  .color h3 {
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    font-size: 14pt;
+    color: #c3b014;
+  }
+
+  .asdf {
+    height: 100px;
+    width: 200px;
+    background: #ccc;
+  }
+
+  .color .huk {
+    width: 320px;
+    height: 200px;
+    margin-bottom: 1em;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .color .huk .back {
+    display: none;
+    background: rgba(28,28,28,0.8);
+    background-size: cover;
+    width: 110%;
+    height: 100%;
+    padding-top: 20%;
+    opacity: 1;
+    position: relative;
+  }
+
+  .color .huk .back h4 {
+    color: #ffffcc;
+    text-transform: none;
+  }
+
+  .color .huk .back a {
+    font-size: 14pt;
+    text-transform: none;
+  }
+
+  .huk #img1 {
+    background: url(../image/aplus.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+  .huk #img2 {
+    background: url(../image/eventide.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+  .huk #img3 {
+    background: url(../image/portfolio.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+  .huk #img4 {
+    background: url(../image/baxter.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+  .huk #img5 {
+    background: url(../image/mojn.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+  .wb #img1, .wb #img2, .wb #img3,
+  .wb #img4, .wb #img5 {
+    width: 320px;
+    height: 200px;
+    position: absolute;
+  }
+
+
+
+
+
+
+  .mark h3 {
+    color: #ffffcc !important;
+    text-transform: none;
+    padding-left: 2em;
+  }
+
+  .text1 {
+    width: 400px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #cedf0e;
+    color: #ffffcc;
+    height: 40px;
+    margin-bottom: 2em;
+    padding-left: 5px;
+  }
+
+  #send {
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    background: none;
+    border-radius: 5px;
+    border-color: #cedf0e;
+    border-width: thin;
+    width: 150px;
+    height: 35px;
+  }
+
+  .left img {
+    width: 35px !important;
+    height: 35px !important;
+    margin-top: 1em;
+    margin-right: 1em;
+    float: left
+  }
+
+  #block1 {
+    margin-left: 3em;
+  }
+
+
+
+.dga {
+  background: #0f0e0e;
+  color: #a3a3a6;
+  padding-top: 19px;
+}
+
+
+.modal p {
+  color: #282828;
+  font-size: 16pt;
+  font-weight: lighter;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.modal-content {
+  margin-top: 10%;
+}
