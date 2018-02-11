@@ -1,0 +1,36 @@
+#wrapper {
+	font-family: Arial, sans-serif !important;
+}
+
+#slogan h1, #bContent p.strong, #blog h4 {
+	font-weight: bold;
+}
+
+
+#bBottom {
+    bottom:-16px !important;
+}
+
+#bRight {
+    bottom: -1px !important;
+}
+
+#bLeft {
+    bottom: -1px !important;
+}
+
+.partner li {
+	white-space: nowrap !important;
+}
+
+#bForm input.button {
+    margin: 3px 0 0 0;
+}
+
+#p2 {
+    margin-left: 10px;
+}
+
+#p1 {
+    margin-left: 10px;
+}

@@ -1,0 +1,12 @@
+#bForm input {
+    margin-bottom: 8px;
+    line-height: 31px;
+}
+
+#bForm input.button {
+    margin: 3px 0 0 0;
+}
+
+.partner li {
+	white-space: nowrap !important;
+}
