@@ -1,0 +1,319 @@
+@import url(reset.css);
+
+body{
+    font-family: Pangram;
+    margin: 0;
+}
+/*Настройки шапки*/
+#upper div div{
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+header a {
+    display: block;
+    height: 30px;
+}
+
+#img1{
+    background-image: url("../img/Icon/telegram.png");
+    background-repeat: no-repeat;
+    background-size: 30px 25px;
+    background-position: 0% 50%;
+}
+
+#img2{
+    background-image: url("../img/Icon/instagram.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 5px;
+}
+
+#img3{
+    background-image: url("../img/Icon/vkontakte.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logotxt {
+    font-size: 15pt;
+    font-weight: lighter;
+    float: left;
+    margin-top: 40px;
+}
+
+#blackout h1 {
+    font-size: 30pt;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+}
+#subtitle {
+    font-size: 14pt;
+    font-variant: small-caps;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+header {
+    height: 600px;
+    width: 100%;
+    background: url("../img/Header/header.jpg") no-repeat;
+    background-size: cover;
+    color: #f2e6e6;
+}
+
+#blackout {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#upper div{
+    float: right;
+    margin-top: 15px;
+}
+
+header #main {
+    width: 1000px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#upper{
+    display: inline-block;
+    width:  100%;
+    height: 61px;
+}
+
+#main h1{
+    margin-top: 189px;
+    text-align: center;
+    letter-spacing: 2.5px;
+}
+/*Конец настроект шапки*/
+
+/*Настройки основной части*/
+section {
+    width: 100%;
+    height: 880px;
+    display: inline-block;
+    background: linear-gradient(180deg, #0b0f16 90%, #101924 100%) no-repeat;
+}
+
+section #main {
+    width: 1000px;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 80px;
+    background: rgba(3, 3, 10, 0.2);
+}
+
+section #main > div {
+    display: inline-block;
+    float: left;
+}
+
+.Pcontainer {
+    width: 235px;
+    height: 235px;
+    display: inline-block;    
+}
+section div {
+    margin: 0;
+    padding: 0;
+}
+aside {
+    line-height: 15px;
+    width: 90%;
+    font-size: 12px;
+    word-wrap: break-word;
+    color: #f2e6e6;
+}
+
+.tag {
+    width: 220px;
+    height: 55px;
+    background-color: #3b3d3e;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+section #main > p {
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #f2e6e6;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.like {
+    margin-top: 208px;
+    margin-left: 15px;
+    letter-spacing: 1.5px;
+    color: #f2e6e6;
+    cursor: default;
+    user-select: none;
+}
+
+#cont1, #cont2, #cont3, #cont5, #cont6, #cont7 {
+    margin-right: 10px;
+}
+
+#cont1, #cont2, #cont3, #cont4 {
+    margin-bottom: 24px;
+}
+
+#cont2, #cont3, #cont6, #cont7 {
+    margin-left: 10px;
+}
+
+#cont4, #cont8 {
+    margin-left: 10px;
+}
+
+.shadow {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 1s;
+}
+
+.shadow:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.Pc1 {
+    background-image: url("../img/Photos/women.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Pc2 {
+    background-image: url("../img/Photos/neironet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Pc3 {
+    background-image: url("../img/Photos/atom.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Pc4 {
+    background-image: url("../img/Photos/brain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Pc5 {
+    background-image: url("../img/Photos/neiron.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Pc6 {
+    background-image: url("../img/Photos/AIwork.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Pc7 {
+    background-image: url("../img/Photos/net.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Pc8 {
+    background-image: url("../img/Photos/aar1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*Конец настройки основной части*/
+
+/**/
+footer {
+    width: 100%;
+    height: 620px;
+    display: inline-block;
+    background: linear-gradient(to bottom, #0f1824 35%, #020210 70%) no-repeat;
+}
+
+footer p {
+    text-align: center; 
+    color: #d8d4d4;
+    word-wrap: break-word;
+}
+
+footer > div {
+    width: 1000px;
+    height: 559px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(3, 3, 10, 0.2);
+    padding-top: 61px;
+}
+
+footer #txt1 {
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+}
+
+footer #txt2 {
+    font-size: 12pt;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    font-variant: small-caps;
+}
+
+footer #txt3 {
+    margin-top: 60px;
+}
+
+#RedBtn {
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 240px;
+    height: 33px;
+    padding-top: 14px;
+    border-radius: 10px;
+    background: linear-gradient(70deg, #870a0a 30%, #a12121 50%, #870a0a 70%);
+    cursor: default;    
+    user-select: none;
+}
+
+#RedBtn:hover {
+    background: linear-gradient(70deg, #a30c0c 30%, #c02727 50%, #a30c0c 70%);
+}
+
+hr {
+    border: none;
+    color: #080d1a;
+    background-color: #080d1a;
+    height: 2px;
+}
+
+/**/
