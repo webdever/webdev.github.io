@@ -249,38 +249,38 @@
   <script src="scripts/slider.js"></script>
   <script src="scripts/wow.min.js"></script>
   <script type="text/javascript">
-    new WOW().init();
-  </script>
-  <script type="text/javascript">
-    $('#w1').mouseover(function(){$("#Dimg1").fadeIn(200);})
-            .mouseleave(function(){$("#Dimg1").fadeOut(200);});
-    $('#w2').mouseover(function(){$("#Dimg2").fadeIn(200);})
-            .mouseleave(function(){$("#Dimg2").fadeOut(200);});
-    $('#w3').mouseover(function(){$("#Dimg3").fadeIn(200);})
-            .mouseleave(function(){$("#Dimg3").fadeOut(200);});
-    $('#w4').mouseover(function(){$("#Dimg4").fadeIn(200);})
-            .mouseleave(function(){$("#Dimg4").fadeOut(200);});
-    $('#w5').mouseover(function(){$("#Dimg5").fadeIn(200);})
-            .mouseleave(function(){$("#Dimg5").fadeOut(200);});
-  </script>
-  <script type="text/javascript">
     $(document).ready(function(){
+      new WOW().init();
+
+
       $(".nav").on("click","a", function (event) {
           event.preventDefault();
           var id  = $(this).attr('href'),
               top = $(id).offset().top;
           $('body,html').animate({scrollTop: top}, 500);
       });
-    });
-  </script>
-  <script type="text/javascript">
-    $("li").click(function() {
-      $(".nav li").removeClass();
-      $(this).addClass("active");
-    });
-    $(".mySlydes img").click(function(){
-      $("#modal-2 img").attr('src', $(this).attr('src'));
-      $("#modal-2").modal('show');
+
+
+      $("li").click(function() {
+        $(".nav li").removeClass();
+        $(this).addClass("active");
+      });
+      $(".mySlydes img").click(function(){
+        $("#modal-2 img").attr('src', $(this).attr('src'));
+        $("#modal-2").modal('show');
+      });
+
+
+      $('#w1').mouseover(function(){$("#Dimg1").fadeIn(200);})
+              .mouseleave(function(){$("#Dimg1").fadeOut(200);});
+      $('#w2').mouseover(function(){$("#Dimg2").fadeIn(200);})
+              .mouseleave(function(){$("#Dimg2").fadeOut(200);});
+      $('#w3').mouseover(function(){$("#Dimg3").fadeIn(200);})
+              .mouseleave(function(){$("#Dimg3").fadeOut(200);});
+      $('#w4').mouseover(function(){$("#Dimg4").fadeIn(200);})
+              .mouseleave(function(){$("#Dimg4").fadeOut(200);});
+      $('#w5').mouseover(function(){$("#Dimg5").fadeIn(200);})
+              .mouseleave(function(){$("#Dimg5").fadeOut(200);});
     });
   </script>
 </body>
