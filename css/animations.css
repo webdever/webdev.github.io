@@ -1,0 +1,13 @@
+/**/
+.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;background-color: #e02d2d;border-radius: 10px;}
+/**/
+a:hover, a:focus {
+  color: #7b7b7b;text-decoration: none;outline: 2px;}
+/**/
+.select:hover {
+  background-color: rgba(55, 55, 55, 0.3);
+}
+.contact .fa:hover {
+  color: #f55;
+}
